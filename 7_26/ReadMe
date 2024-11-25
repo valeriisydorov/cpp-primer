@@ -1,0 +1,6 @@
+Automatic input
+
+input data: input.txt
+output data: output.txt
+g++ main.cpp Sales_data.cpp -o sales
+./sales <input.txt>output.txt

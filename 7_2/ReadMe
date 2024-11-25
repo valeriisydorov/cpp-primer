@@ -1,0 +1,6 @@
+Automatic input
+
+input data: infile
+output data: outfile
+g++ main.cpp -o salesData
+./salesData <infile>outfile

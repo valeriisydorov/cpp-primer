@@ -1,0 +1,6 @@
+Separate compilation introduction:
+
+g++ -c factMain.cc
+g++ -c fact.cc
+g++ factMain.o fact.o
+g++ factMain.o fact.o -o main

@@ -1,0 +1,35 @@
+# Ignore temporary files and directories
+*~
+*.swp
+*.swo
+*.o
+*.out
+*.log
+*.zip
+*.tar.gz
+
+# Ignore CMake build files (anywhere in the project tree)
+**/cmake-build-*/
+
+# Ignore IDE project files (e.g., CLion, IntelliJ IDEA, etc.)
+**/.idea/
+
+# Ignore user-specific settings files
+**/*.iml
+**/*.ipr
+**/*.iws
+**/*.classpath
+**/*.project
+
+# Ignore generated files and directories common in C++ projects
+**/build/
+**/bin/
+**/obj/
+**/debug/
+**/release/
+
+# Ignore temporary backup files
+**/*.bak
+**/*.tmp
+**/*~*
+
